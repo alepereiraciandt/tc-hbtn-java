@@ -3,7 +3,8 @@ import java.text.NumberFormat;
 
 public class PrintFormatacaoNumeros {
     public static void main(String[] args) {
-        float taxa = 0.2456f, valor = 7654.322f;
+        float taxa = 0.2456f;
+        float valor = 7654.322f;
 
         NumberFormat currency = NumberFormat.getInstance(new Locale("en", "US"));
 
