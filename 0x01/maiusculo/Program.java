@@ -1,7 +1,7 @@
-import Caractere;
-
 public class Program {
     public static void main(String[] args) {
+        Caractere caractere = new Caractere();
+
         boolean caractereEhMaiusculo1 = Caractere.EhMaiusculo('a');
         boolean caractereEhMaiusculo2 = Caractere.EhMaiusculo('B');
         boolean caractereEhMaiusculo3 = Caractere.EhMaiusculo('d');
