@@ -1,4 +1,4 @@
-package maiusculo;
+import Caractere;
 
 public class Program {
     public static void main(String[] args) {
