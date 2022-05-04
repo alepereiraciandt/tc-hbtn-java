@@ -3,5 +3,6 @@ public class Numeros0a99 {
         for (int i = 0; i <= 99; i += 1) {
             System.out.printf(i == 99 ? i + "" :  i + ", ");
         }
+        System.out.printf("\n");
     }
 }
