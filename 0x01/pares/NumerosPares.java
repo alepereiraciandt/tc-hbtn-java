@@ -5,5 +5,6 @@ public class NumerosPares {
                 System.out.printf(i == 98 ? i + "" : i + ", ");
             }
         }
+        System.out.printf("\n");
     }
 }
