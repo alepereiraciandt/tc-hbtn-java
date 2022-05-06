@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="541420e1-cf1c-467c-b801-054e267bb6f7" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/divisao/Numero.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/divisao/Numero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02/divisao/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/divisao/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x02/quadrado/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/quadrado/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x02/quadrado/Quadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x02/quadrado/Quadrado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +47,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.divisao.Program">
-    <configuration name="NumerosPares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numeros.NumerosPares" />
-      <module name="tc-hbtn-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="numeros.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.quadrado.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="maiusculo.Program" />
       <module name="tc-hbtn-java" />
@@ -113,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="quadrado.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quadrado.Program" />
+      <module name="tc-hbtn-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quadrado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quadrado.Program" />
         <item itemvalue="Application.divisao.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Program02" />
         <item itemvalue="Application.pares.NumerosPares" />
-        <item itemvalue="Application.NumerosPares" />
       </list>
     </recent_temporary>
   </component>
