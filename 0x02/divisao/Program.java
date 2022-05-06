@@ -3,7 +3,7 @@ import java.io.PrintStream;
 public class Program {
     public static void main(String[] args) {
         double res1 = 0;
-        int a, b;
+        int a = 0, b = 0;
         try {
             Numero operador = new Numero();
 
@@ -20,7 +20,7 @@ public class Program {
         }
         finally {
             System.out.println(String.valueOf(res1));
-            PrintStream printf = System.out.printf("%d / %d = %2d\n", a, b, (a / b));
+            System.out.printf("%d / %d = %2d\n", a, b, (a / b));
         }
     }
 }
