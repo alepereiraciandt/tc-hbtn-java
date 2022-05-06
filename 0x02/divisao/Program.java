@@ -1,9 +1,11 @@
+import java.io.PrintStream;
+
 public class Program {
     public static void main(String[] args) {
         double res1 = 0;
+        int a, b;
         try {
             Numero operador = new Numero();
-            int a, b;
 
             a = 9;
             b = 4;
@@ -18,6 +20,7 @@ public class Program {
         }
         finally {
             System.out.println(String.valueOf(res1));
+            PrintStream printf = System.out.printf("%d / %d = %2d\n", a, b, (a / b));
         }
     }
 }
