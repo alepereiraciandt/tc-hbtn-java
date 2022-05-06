@@ -1,5 +1,3 @@
-package divisao;
-
 public class Numero {
     public static double dividir(double dividendo, double divisor)  throws  Exception {
         if (divisor == 0) {
