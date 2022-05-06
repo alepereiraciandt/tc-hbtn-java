@@ -1,8 +1,14 @@
+
 public class Numero {
-    public static double dividir(double dividendo, double divisor)  throws  Exception {
-        if (divisor == 0) {
-            throw new Exception("Nao eh possivel dividir por zero");
+    public static void dividir(int a, int b) {
+        int result = 0;
+        try {
+            result = (a / b);
+            Numero.dividir(a, b);
+        } catch (Exception ex) {
+            System.out.println("Nao eh possivel dividir por zero");
+        } finally {
+            System.out.printf("%d / %d = %d\n", a, b, result);
         }
-        return (dividendo / divisor);
     }
 }
