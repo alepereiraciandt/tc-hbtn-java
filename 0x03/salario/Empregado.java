@@ -10,11 +10,14 @@ public class Empregado {
         return salarioFixo;
     }
 
-    public double calcularBonus(Departamento departamento) {
+    public static double calcularBonus(Departamento departamento) {
         if (departamento.valorAtingidoMeta())
             return this.salarioFixo * 0.1;
         else
             return 0;
     }
 
+    public static double calcularSalarioTotal(Departamento departamento) {
+        return salarioFixo + calcularBonus(departamento);
+    }
 }
