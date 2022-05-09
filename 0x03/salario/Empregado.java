@@ -17,7 +17,4 @@ public class Empregado {
             return 0;
     }
 
-    public static double calcularSalarioTotal(Departamento departamento) {
-
-    }
 }
