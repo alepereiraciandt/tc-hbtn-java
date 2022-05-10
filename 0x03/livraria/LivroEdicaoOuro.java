@@ -1,3 +1,4 @@
+import livraria.Livro;
 import exceptions.*;
 
 public class LivroEdicaoOuro extends Livro {
@@ -6,7 +7,7 @@ public class LivroEdicaoOuro extends Livro {
     }
 
     @Override
-    public int getPreco() {
+    public double getPreco() {
         return super.preco * 1.3;
     }
 }

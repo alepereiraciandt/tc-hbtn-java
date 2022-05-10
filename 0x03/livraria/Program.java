@@ -1,3 +1,5 @@
+import livraria.Livro;
+import livraria.LivroEdicaoOuro;
 import exceptions.*;
 
 public class Program {

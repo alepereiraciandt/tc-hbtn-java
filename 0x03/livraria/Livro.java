@@ -3,7 +3,7 @@ import exceptions.*;
 public class Livro {
     private String titulo;
     private String autor;
-    private int preco;
+    public double preco;
 
     public Livro(String titulo, String autor, double preco) throws AutorInvalidoException, LivroInvalidoException {
         if (titulo.length() >= 3) {
@@ -33,7 +33,7 @@ public class Livro {
         return autor;
     }
 
-    public int getPreco() {
+    public double getPreco() {
         return preco;
     }
 
@@ -46,7 +46,7 @@ public class Livro {
     }
 
     public void setPreco(double preco) {
-        this.preco = (int) preco;
+        this.preco = preco;
     }
 
 }
