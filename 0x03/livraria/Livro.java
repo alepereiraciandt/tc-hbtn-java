@@ -7,7 +7,7 @@ public class Livro {
     private String autor;
     private int preco;
 
-    public Livro(String titulo, String autor, int preco) throws AutorInvalidoException, LivroInvalidoException {
+    public Livro(String titulo, String autor, double preco) throws AutorInvalidoException, LivroInvalidoException {
         if (titulo.length() >= 3) {
             setTitulo(titulo);
         } else {
@@ -47,8 +47,8 @@ public class Livro {
         this.titulo = titulo;
     }
 
-    public void setPreco(int preco) {
-        this.preco = preco;
+    public void setPreco(double preco) {
+        this.preco = (int) preco;
     }
 
 }
