@@ -1,9 +1,13 @@
+import AutorInvalidoException;
+import LivroInvalidoException;
+
+
 public class Livro {
     private String titulo;
     private String autor;
     private int preco;
 
-    public Livro(String titulo, String autor, int preco) throws LivroInvalidoException, AutorInvalidoException {
+    public Livro(String titulo, String autor, int preco) throws AutorInvalidoException, LivroInvalidoException {
         if (titulo.length() >= 3) {
             setTitulo(titulo);
         } else {
