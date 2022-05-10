@@ -11,7 +11,7 @@ public class ContaBancariaBasica {
     public ContaBancariaBasica(double saldo, String numeracao, double taxaJurosAnual) {
         this.numeracao = numeracao;
         this.taxaJurosAnual = taxaJurosAnual;
-        this.saldo = 0;
+        this.setSaldo(saldo);
     }
 
     public void depositar(double valor) throws OperacaoInvalidaException {
@@ -73,7 +73,11 @@ public class ContaBancariaBasica {
         return taxaJurosAnual;
     }
 
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
 
-    protected void setSaldo(double v) {
+    public void setTaxaJurosAnual(double taxaJurosAnual) {
+        this.taxaJurosAnual = taxaJurosAnual;
     }
 }
