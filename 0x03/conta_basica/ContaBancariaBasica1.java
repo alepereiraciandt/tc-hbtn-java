@@ -8,7 +8,7 @@ public class ContaBancariaBasica {
 
     private final int CEM_PORCENTO = 100;
 
-    public ContaBancariaBasica(double saldo, String numeracao, double taxaJurosAnual) {
+    public ContaBancariaBasica1(double saldo, String numeracao, double taxaJurosAnual) {
         this.numeracao = numeracao;
         this.taxaJurosAnual = taxaJurosAnual;
         this.saldo = 0;

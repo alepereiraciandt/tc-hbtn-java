@@ -1,12 +1,13 @@
-import exceptions.OperacaoInvalidaException;
+import exceptions.*;
 
 public class ContaBancariaTarifada extends ContaBancariaBasica {
     private int quantidadeTransacoes;
 
-    public ContaBancariaTarifada(double saldo, String numeracao, double taxaJurosAnual, int quantidadeTransacoes) {
+    public ContaBancariaTarifada(String numeracao,double saldo,double taxaJurosAnual,int quantidadeTransacoes) {
         super(saldo, numeracao, taxaJurosAnual);
         this.quantidadeTransacoes = quantidadeTransacoes;
     }
+
 
     @Override
     public void sacar(double valor) throws OperacaoInvalidaException {
