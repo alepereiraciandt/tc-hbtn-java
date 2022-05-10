@@ -1,8 +1,8 @@
 import exceptions.*;
 
 public class Livro {
-    private String titulo;
-    private String autor;
+    public String titulo;
+    public String autor;
     public double preco;
 
     public Livro(String titulo, String autor, double preco) throws AutorInvalidoException, LivroInvalidoException {

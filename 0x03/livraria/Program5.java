@@ -1,9 +1,7 @@
-import exceptions.*;
-
 import java.util.Locale;
 
 
-public class Program {
+public class Program5 {
     public static void main(String[] args) {
 
         Locale.setDefault(new Locale("pt", "BR"));
