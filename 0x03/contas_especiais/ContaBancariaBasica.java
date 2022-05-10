@@ -8,10 +8,10 @@ public class ContaBancariaBasica {
 
     private final int CEM_PORCENTO = 100;
 
-    public ContaBancariaBasica(double saldo, String numeracao, double taxaJurosAnual) {
+    public ContaBancariaBasica(String numeracao, double taxaJurosAnual) {
         this.numeracao = numeracao;
         this.taxaJurosAnual = taxaJurosAnual;
-        this.setSaldo(saldo);
+        this.saldo = 0;
     }
 
     public void depositar(double valor) throws OperacaoInvalidaException {

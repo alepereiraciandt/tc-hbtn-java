@@ -3,15 +3,14 @@ import exceptions.*;
 public class ContaBancariaTarifada extends ContaBancariaBasica {
     private int quantidadeTransacoes;
 
-    public ContaBancariaTarifada(String numeracao,double saldo,double taxaJurosAnual,int quantidadeTransacoes) {
-        super(saldo, numeracao, taxaJurosAnual);
+    public ContaBancariaTarifada(String numeracao, double taxaJurosAnual) {
+        super(numeracao, taxaJurosAnual);
         this.quantidadeTransacoes = quantidadeTransacoes;
     }
 
-
     @Override
     public void sacar(double valor) throws OperacaoInvalidaException {
-        super.sacar(valor - 0.10);
+        super.sacar(valor + 0.10);
     }
 
     @Override
