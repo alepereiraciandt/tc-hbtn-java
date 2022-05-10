@@ -1,6 +1,4 @@
-import AutorInvalidoException;
-import LivroInvalidoException;
-
+import exceptions.*;
 
 public class Livro {
     private String titulo;

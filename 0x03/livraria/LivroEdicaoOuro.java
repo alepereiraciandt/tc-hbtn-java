@@ -1,5 +1,4 @@
-import AutorInvalidoException;
-import LivroInvalidoException;
+import exceptions.*;
 
 public class LivroEdicaoOuro extends Livro {
     public LivroEdicaoOuro(String titulo, String autor, double preco) throws AutorInvalidoException, LivroInvalidoException {
@@ -7,7 +6,7 @@ public class LivroEdicaoOuro extends Livro {
     }
 
     @Override
-    public double getPreco() {
+    public int getPreco() {
         return super.preco * 1.3;
     }
 }
