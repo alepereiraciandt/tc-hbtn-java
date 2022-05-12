@@ -46,7 +46,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.status.Program">
+  <component name="RunManager" selected="Application.consistencia.Program">
     <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="tc-hbtn-java" />
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="metodos.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="metodos.Program" />
+    <configuration name="consistencia.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consistencia.Program" />
       <module name="tc-hbtn-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="metodos.*" />
+          <option name="PATTERN" value="consistencia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="personagem.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="personagem.Program" />
+    <configuration name="metodos.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="metodos.Program" />
       <module name="tc-hbtn-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="personagem.*" />
+          <option name="PATTERN" value="metodos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.consistencia.Program" />
         <item itemvalue="Application.status.Program" />
         <item itemvalue="Application.metodos.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Program (1)" />
-        <item itemvalue="Application.personagem.Program" />
       </list>
     </recent_temporary>
   </component>
