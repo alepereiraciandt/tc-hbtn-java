@@ -9,7 +9,7 @@ public class Program {
         personagem2.nome = "Mario";
         personagem2.saudeAtual = 100;
 
-        System.out.println("Nome: "+personagem1.nome +" - Saudade: "+personagem1.saudeAtual);
-        System.out.println("Nome: "+personagem2.nome +" - Saudade: "+personagem2.saudeAtual);
+        System.out.printf("Nome: %s - Saude: %d\n", personagem1.nome, personagem1.saudeAtual);
+        System.out.printf("Nome: %s - Saude: %d\n", personagem2.nome, personagem2.saudeAtual);
     }
 }
