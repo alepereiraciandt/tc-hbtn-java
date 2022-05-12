@@ -1,5 +1,3 @@
-package consistencia;
-
 public class PersonagemGame {
     private String nome;
     private int saudeAtual;
