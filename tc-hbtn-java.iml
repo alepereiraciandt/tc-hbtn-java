@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x04" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
+      <excludeFolder url="file://$MODULE_DIR$/0x04/metodos" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
