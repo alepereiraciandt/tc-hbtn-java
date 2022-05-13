@@ -1,5 +1,7 @@
+package heranca;
+
 public class Animal {
-    private String name;
+    String name;
 
     public String getName() {
         return name;
@@ -9,4 +11,7 @@ public class Animal {
         this.name = name;
     }
 
+    public String toString() {
+        return name;
+    }
 }
