@@ -1,2 +1,3 @@
-public class Cachorro extends  Animal {
+import Animal;
+public class Cachorro extends Animal {
 }

@@ -1,3 +1,5 @@
+import Animal;
+import Cachorro;
 public class Program {
     public static void main(String[] args) {
         Animal meuAnimal = new Animal();
