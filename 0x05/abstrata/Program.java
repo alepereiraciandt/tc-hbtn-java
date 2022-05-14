@@ -1,5 +1,3 @@
-package abstrata;
-
 import java.lang.reflect.Modifier;
 
 public class Program {
