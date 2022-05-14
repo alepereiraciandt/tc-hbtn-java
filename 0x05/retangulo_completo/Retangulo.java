@@ -1,3 +1,4 @@
+package retangulo_completo;
 public class Retangulo extends FormaGeometrica {
     private double largura;
     private double altura;
@@ -20,7 +21,8 @@ public class Retangulo extends FormaGeometrica {
 
     @Override
     public String toString() {
-        return String.format("[Retangulo] " + largura + " / " + altura);
+        String formatedString = String.format("[Retangulo] %1$.2f / %2$.2f", largura, altura);
+        return formatedString;
     }
 
     @Override
