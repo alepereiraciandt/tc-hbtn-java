@@ -1,4 +1,4 @@
-public class Program {
+public class Program{
     public static void main(String[] args) {
         Animal meuAnimal = new Animal();
         Cachorro meuCachorro = new Cachorro();

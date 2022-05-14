@@ -10,6 +10,8 @@
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/personagem" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/consistencia" />
+      <excludeFolder url="file://$MODULE_DIR$/0x05/forma" />
+      <excludeFolder url="file://$MODULE_DIR$/0x05/heranca" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
