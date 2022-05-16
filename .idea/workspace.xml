@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="541420e1-cf1c-467c-b801-054e267bb6f7" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x06/pedido_livraria/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x06/pedido_livraria/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc-hbtn-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tc-hbtn-java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="retangulo_completo.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="retangulo_completo.Program" />
+    <configuration name="resumo_pedido.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="resumo_pedido.Program" />
       <module name="tc-hbtn-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="retangulo_completo.*" />
+          <option name="PATTERN" value="resumo_pedido.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,10 +114,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Program (1)" />
+        <item itemvalue="Application.resumo_pedido.Program" />
         <item itemvalue="Application.pedido_livraria.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.quadrado.Program" />
-        <item itemvalue="Application.retangulo_completo.Program" />
       </list>
     </recent_temporary>
   </component>
