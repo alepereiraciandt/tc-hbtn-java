@@ -1,4 +1,5 @@
-package produtos;
+package resumo_pedido.produtos;
+
 public abstract class Produto {
     protected String titulo;
     protected int ano;

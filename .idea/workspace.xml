@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="541420e1-cf1c-467c-b801-054e267bb6f7" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tc-hbtn-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tc-hbtn-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x06/resumo_pedido/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x06/resumo_pedido/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x06/resumo_pedido/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x06/resumo_pedido/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x06/resumo_pedido/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x06/resumo_pedido/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x06/resumo_pedido/produtos/Dvd.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x06/resumo_pedido/produtos/Dvd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x06/resumo_pedido/produtos/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x06/resumo_pedido/produtos/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x06/resumo_pedido/produtos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x06/resumo_pedido/produtos/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Program (1)">
+  <component name="RunManager" selected="Application.resumo_pedido.Program">
     <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="tc-hbtn-java" />
@@ -113,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.resumo_pedido.Program" />
+        <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.pedido_livraria.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.quadrado.Program" />
