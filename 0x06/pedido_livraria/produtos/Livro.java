@@ -13,8 +13,7 @@ public class Livro extends Produto {
 
     @Override
     public double obterPrecoLiquido() {
-        double twentyPercent = (this.precoBruto * 15) / 100;
-        return this.precoBruto + twentyPercent;
+        return this.precoBruto + (this.precoBruto * 0.15);
     }
 
     public int getPaginas() {

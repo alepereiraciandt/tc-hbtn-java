@@ -2,7 +2,7 @@ public class Pedido {
     private double percentualDesconto;
     private ItemPedido[] itens;
 
-    public Pedido(int percentualDesconto, ItemPedido[] itens) {
+    public Pedido(double percentualDesconto, ItemPedido[] itens) {
         setPercentualDesconto(percentualDesconto);
         setItens(itens);
     }
@@ -12,7 +12,7 @@ public class Pedido {
         for (int i = 0; i < this.itens.length; i += 1) {
             total += itens[i].getQuantidade() * itens[i].getProduto().obterPrecoLiquido();
         }
-        return total = total - total * this.percentualDesconto/100;
+        return total - (total * (this.percentualDesconto/100));
     }
 
     public double getPercentualDesconto() {
