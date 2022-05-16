@@ -2,7 +2,7 @@ public class Pedido {
     private double percentualDesconto;
     private ItemPedido[] itens;
 
-    public Pedido(int percentualDesconto, ItemPedido[] itens) {
+    public Pedido(double percentualDesconto, ItemPedido[] itens) {
         setPercentualDesconto(percentualDesconto);
         setItens(itens);
     }

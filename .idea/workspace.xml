@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="541420e1-cf1c-467c-b801-054e267bb6f7" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/0x06/pedido_livraria/ItemPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x06/pedido_livraria/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x06/pedido_livraria/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x06/produtos/Dvd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x06/produtos/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x06/produtos/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tc-hbtn-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tc-hbtn-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x06/pedido_livraria/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x06/pedido_livraria/Pedido.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
