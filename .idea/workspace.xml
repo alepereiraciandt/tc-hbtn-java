@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="541420e1-cf1c-467c-b801-054e267bb6f7" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/0x06/pedido_livraria/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x06/pedido_livraria/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x06/pedido_livraria/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x06/produtos/Dvd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x06/produtos/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x06/produtos/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tc-hbtn-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tc-hbtn-java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -48,19 +56,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="Program (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.pedido_livraria.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstrata.Program" />
       <module name="tc-hbtn-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="abstrata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pedido_livraria.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pedido_livraria.Program" />
+      <module name="tc-hbtn-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pedido_livraria.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pedido_livraria.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.quadrado.Program" />
         <item itemvalue="Application.retangulo_completo.Program" />
         <item itemvalue="Application.retangulo.Program" />
-        <item itemvalue="Application.Program (2)" />
       </list>
     </recent_temporary>
   </component>
