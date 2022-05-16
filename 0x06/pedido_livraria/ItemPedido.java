@@ -2,7 +2,7 @@ public class ItemPedido {
     private int quantidade;
     private Produto produto;
 
-    ItemPedido(Produto produto, int quantidade) {
+    public ItemPedido(Produto produto, int quantidade) {
         setProduto(produto);
         setQuantidade(quantidade);
     }
