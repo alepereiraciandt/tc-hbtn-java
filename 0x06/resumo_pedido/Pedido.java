@@ -10,11 +10,9 @@ public class Pedido {
     }
 
     public void apresentarResumoPedido() {
-        int i, j;
         double total = 0;
-
         System.out.println("------- RESUMO PEDIDO -------");
-        for (i = 0; i < itens.length; i += 1) {
+        for (int i = 0; i < itens.length; i += 1) {
             String type = itens[i].getProduto().getClass().getSimpleName();
             String title = itens[i].getProduto().getTitulo();
             double price = itens[i].getProduto().obterPrecoLiquido();
@@ -22,7 +20,7 @@ public class Pedido {
             total += price * quantity;
             System.out.printf("Tipo: %s  Titulo: %s  Preco: %.2f  Quant: %d  Total: %.2f\n", type, title, price, quantity, price * quantity);
         }
-        System.out.println("----------------------------");
+            System.out.println("----------------------------");
             double desc = (total * percentualDesconto) / 100;
             System.out.printf("DESCONTO: %.2f\n", desc);
             System.out.printf("TOTAL PRODUTOS: %.2f\n", total);
