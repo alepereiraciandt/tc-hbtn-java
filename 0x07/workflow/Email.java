@@ -1,5 +1,3 @@
-package workflow;
-
 public class Email implements CanalNotificacao {
     @Override
     public void notificar(Mensagem mensagem) {
