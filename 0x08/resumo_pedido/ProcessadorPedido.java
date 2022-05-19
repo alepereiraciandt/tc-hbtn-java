@@ -1,4 +1,4 @@
-import resumo_pedido.provedores.ProvedorFrete;
+import provedores.ProvedorFrete;
 
 public class ProcessadorPedido {
     private ProvedorFrete provedorFrete;

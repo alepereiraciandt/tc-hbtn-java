@@ -1,4 +1,4 @@
-import resumo_pedido.provedores.Frete;
+import provedores.Frete;
 
 public class Pedido {
     private int codigo;
