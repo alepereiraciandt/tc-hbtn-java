@@ -1,3 +1,5 @@
+package workflow;
+
 import workflow.atividades.*;
 
 public class Program {

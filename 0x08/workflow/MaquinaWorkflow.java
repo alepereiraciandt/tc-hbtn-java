@@ -1,3 +1,5 @@
+package workflow;
+
 import workflow.atividades.Atividade;
 
 public class MaquinaWorkflow {
