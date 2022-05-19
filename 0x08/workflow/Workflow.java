@@ -1,4 +1,4 @@
-import atividades.Atividade;
+import atividade.Atividade;
 
 import java.util.ArrayList;
 import java.util.List;

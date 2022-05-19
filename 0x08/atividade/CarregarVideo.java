@@ -1,4 +1,4 @@
-package atividades;
+package atividade;
 
 public class CarregarVideo implements Atividade {
     @Override

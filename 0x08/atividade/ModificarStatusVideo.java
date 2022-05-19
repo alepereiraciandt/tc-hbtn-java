@@ -1,4 +1,4 @@
-package atividades;
+package atividade;
 
 public class ModificarStatusVideo implements Atividade{
     @Override
