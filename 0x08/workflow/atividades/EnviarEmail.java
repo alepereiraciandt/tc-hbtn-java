@@ -1,4 +1,4 @@
-package workflow.atividade;
+package workflow.atividades;
 
 public class EnviarEmail implements Atividade {
     @Override
