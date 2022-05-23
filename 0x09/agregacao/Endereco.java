@@ -1,21 +1,19 @@
-package agregacao;
-
 public class Endereco {
     private String logradouro;
     private String numero;
     private String complemento;
     private String bairro;
     private String cidade;
-    private String statado;
+    private String estado;
     private String pais;
 
-    public Endereco(String logradouro, String numero, String complemento, String bairro, String cidade, String statado, String pais) {
+    public Endereco(String logradouro, String numero, String complemento, String bairro, String cidade, String estado, String pais) {
         this.logradouro = logradouro;
         this.numero = numero;
         this.complemento = complemento;
         this.bairro = bairro;
         this.cidade = cidade;
-        this.statado = statado;
+        this.estado = estado;
         this.pais = pais;
     }
 
@@ -39,7 +37,7 @@ public class Endereco {
         this.cidade = cidade;
     }
 
-    public void setStatado(String statado) {
+    public void setEstado(String statado) {
         this.statado = statado;
     }
 
@@ -67,7 +65,7 @@ public class Endereco {
         return cidade;
     }
 
-    public String getStatado() {
+    public String getEstado() {
         return statado;
     }
 
