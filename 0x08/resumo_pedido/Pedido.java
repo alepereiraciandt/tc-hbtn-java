@@ -1,4 +1,6 @@
-import provedores.Frete;
+imSÃO PAULO
+JUKERA + SHACO COM A BUILD QUE FUNCIONA ...aceitas?
+11.205 visualizações19 de mai. de 2022port provedores.Frete;
 
 public class Pedido {
     private int codigo;
