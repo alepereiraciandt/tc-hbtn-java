@@ -37,8 +37,8 @@ public class Endereco {
         this.cidade = cidade;
     }
 
-    public void setEstado(String statado) {
-        this.statado = statado;
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 
     public void setPais(String pais) {
@@ -66,7 +66,7 @@ public class Endereco {
     }
 
     public String getEstado() {
-        return statado;
+        return estado;
     }
 
     public String getPais() {
