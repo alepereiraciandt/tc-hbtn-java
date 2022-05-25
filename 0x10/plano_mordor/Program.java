@@ -1,4 +1,15 @@
-import plano_mordor.comida.*;
+package plano_mordor;
+
+import comida.*;
+import humor.*;
+import comida.BoloDeMel;
+import comida.Cogumelo;
+import comida.Comida;
+import comida.Maca;
+import comida.OutraComida;
+import comida.Cram;
+import comida.Melao;
+import comida.Lembas;
 
 public class Program {
     public static void main(String[] args) {
