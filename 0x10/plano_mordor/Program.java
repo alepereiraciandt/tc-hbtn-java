@@ -1,13 +1,6 @@
 import comida.*;
 import humor.*;
-import comida.Cogumelo;
-import comida.Comida;
-import comida.Maca;
-import comida.OutraComida;
-import comida.Cram;
-import comida.Melao;
-import comida.Lembas;
-import comida.BoloDeMel;
+
 
 public class Program {
     public static void main(String[] args) {

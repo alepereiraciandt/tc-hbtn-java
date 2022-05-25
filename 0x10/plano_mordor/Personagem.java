@@ -1,7 +1,7 @@
 
 
-import plano_mordor.comida.Comida;
-import plano_mordor.humor.*;
+import comida.*;
+import humor.*;
 
 public class Personagem {
     private int pontosDeFelicidade;
