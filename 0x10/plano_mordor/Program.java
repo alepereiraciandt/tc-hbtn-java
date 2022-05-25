@@ -1,5 +1,3 @@
-package plano_mordor;
-
 import comida.*;
 import humor.*;
 import comida.Cogumelo;
@@ -10,7 +8,6 @@ import comida.Cram;
 import comida.Melao;
 import comida.Lembas;
 import comida.BoloDeMel;
-import Personagem;
 
 public class Program {
     public static void main(String[] args) {
