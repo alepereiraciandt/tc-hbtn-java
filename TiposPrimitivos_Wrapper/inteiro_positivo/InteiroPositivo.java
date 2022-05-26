@@ -1,8 +1,8 @@
 public class InteiroPositivo {
-    private Integer valor;
+    private int valor;
 
     public InteiroPositivo(Integer valor) {
-        setValor(valor);
+        setValor(valor.intValue());
     }
 
     public InteiroPositivo(String valor) {
@@ -31,10 +31,11 @@ public class InteiroPositivo {
     }
 
     public void setValor(Integer valor) {
-        if (valor < 0) {
+        int v = valor.intValue();
+        if (v < 0) {
             System.out.println("Valor nao eh um valor inteiro positivo");
         } else {
-            this.valor = valor;
+            this.valor = v;
         }
     }
 }
