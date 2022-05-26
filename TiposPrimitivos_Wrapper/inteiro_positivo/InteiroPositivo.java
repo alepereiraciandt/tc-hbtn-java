@@ -33,7 +33,7 @@ public class InteiroPositivo {
     public void setValor(Integer valor) {
         int v = valor.intValue();
         if (v < 0) {
-            System.out.println("Valor nao eh um valor inteiro positivo");
+            throw new IllegalArgumentException("Valor nao eh um valor inteiro positivo");
         } else {
             this.valor = v;
         }
