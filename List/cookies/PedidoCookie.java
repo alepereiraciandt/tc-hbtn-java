@@ -1,5 +1,3 @@
-package cookies;
-
 public class PedidoCookie {
     private String sabor;
     private int quantidadeCaixas;
