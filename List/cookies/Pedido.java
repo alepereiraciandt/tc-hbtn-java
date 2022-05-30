@@ -9,13 +9,6 @@ public class Pedido {
         this.cookies = new ArrayList<>();
     }
 
-    public List<PedidoCookie> getCookies() {
-        return cookies;
-    }
-
-    public void setCookies(List<PedidoCookie> cookies) {
-        this.cookies = cookies;
-    }
 
     public void adicionarPedidoCookie(PedidoCookie cookie) {
         cookies.add(cookie);
