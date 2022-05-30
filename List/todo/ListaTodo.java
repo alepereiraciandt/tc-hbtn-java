@@ -58,7 +58,7 @@ public class ListaTodo {
             } else {
                 mark = "[ ]";
             }
-            System.out.println(mark + " Id: " + t.getIdentificador() + " - Descricao: " + t.getDescricao());
+            System.out.println(mark + "  Id: " + t.getIdentificador() + " - Descricao: " + t.getDescricao());
         }
     }
 }
