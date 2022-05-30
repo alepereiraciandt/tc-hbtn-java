@@ -8,11 +8,9 @@ public class Tarefa {
         this.identificador = identificador;
     }
 
-    public void modificarDescricao(String novaDesc) {
-        if (novaDesc == null || novaDesc.isEmpty()) {
-            throw new NullPointerException("Descricao de tarefa invalida");
-        } else {
-            setDescricao(novaDesc);
+    public void modificarDescricao(String descricao) {
+        if (this.descricao == null || this.descricao.isEmpty()) {
+            throw new IllegalArgumentException("Descricao de tarefa invalida");
         }
     }
 

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class ListaTodo {
-    private ArrayList<Tarefa> tarefas;
+    private List<Tarefa> tarefas;
 
     public ListaTodo() {
         this.tarefas = new ArrayList<>();
