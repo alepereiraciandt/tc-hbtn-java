@@ -4,7 +4,7 @@ public class ListaTodo {
     private List<Tarefa> tarefas;
 
     public ListaTodo() {
-        this.tarefas = new ArrayList<>();
+        this.tarefas = new ArrayList<Tarefa>();
     }
 
     public void adicionarTarefa(Tarefa tarefa) {
