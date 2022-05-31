@@ -65,7 +65,7 @@ public class Banco {
                     System.out.printf("Cliente: %s [%d]\n", c.getNome(), count);
                     for (double transacoes : c.getTransacoes()) {
                         count2++;
-                        System.out.printf(" [%d] valor %.2f\n", count2, transacoes);
+                        System.out.printf("  [%d] valor %.2f\n", count2, transacoes);
                     }
                 }
             }
