@@ -1,4 +1,4 @@
-import celular.Contato;
+import Contato;
 
 import java.util.ArrayList;
 

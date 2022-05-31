@@ -1,4 +1,4 @@
-import celular.TipoNumero;
+import TipoNumero;
 
 public class Contato {
     private String nome;
