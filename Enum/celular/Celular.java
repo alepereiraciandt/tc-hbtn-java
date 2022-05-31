@@ -1,4 +1,4 @@
-import Contato;
+import Contato.*;
 
 import java.util.ArrayList;
 
