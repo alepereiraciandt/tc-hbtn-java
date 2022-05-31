@@ -1,3 +1,5 @@
+import celular.Contato;
+
 import java.util.ArrayList;
 
 public class Celular {
