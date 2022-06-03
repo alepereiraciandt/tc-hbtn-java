@@ -18,6 +18,8 @@
       <excludeFolder url="file://$MODULE_DIR$/0x06/pedido_livraria" />
       <excludeFolder url="file://$MODULE_DIR$/0x08/workflow" />
       <excludeFolder url="file://$MODULE_DIR$/List/numeros" />
+      <excludeFolder url="file://$MODULE_DIR$/Set_Map/duplicados" />
+      <excludeFolder url="file://$MODULE_DIR$/Set_Map/analisador_frase" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
