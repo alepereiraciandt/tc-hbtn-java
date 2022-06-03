@@ -58,20 +58,7 @@
       <recent name="$PROJECT_DIR$/0x09" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.telefones.Program">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="celular.Program" />
-      <module name="tc-hbtn-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="celular.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.telefones_duplicados.Program">
     <configuration name="analisador_frase.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="analisador_frase.Program" />
       <module name="tc-hbtn-java" />
@@ -124,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="telefones_duplicados.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="telefones_duplicados.Program" />
+      <module name="tc-hbtn-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="telefones_duplicados.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.telefones_duplicados.Program" />
         <item itemvalue="Application.telefones.Program" />
         <item itemvalue="Application.duplicados.Program" />
         <item itemvalue="Application.analisador_frase.Program" />
         <item itemvalue="Application.banco.Program" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
