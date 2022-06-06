@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class Telefone {
     private String codigoArea;
     private String numero;
@@ -14,8 +12,11 @@ public class Telefone {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         Telefone telefone = (Telefone) o;
-        return Objects.equals(codigoArea, telefone.codigoArea) && Objects.equals(numero, telefone.numero);
+
+        if (!codigoArea.equals(telefone.codigoArea)) return false;
+        return numero.equals(telefone.numero);
     }
 
     @Override

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="541420e1-cf1c-467c-b801-054e267bb6f7" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Set_Map/telefones_duplicados/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/Set_Map/telefones_duplicados/Telefone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tc-hbtn-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tc-hbtn-java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,43 +42,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/alexandrepereira/Repositories/tc-hbtn-java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "/home/alexandrepereira/Repositories/tc-hbtn-java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/0x09" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.telefones_duplicados.Program">
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="tc-hbtn-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="analisador_frase.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="analisador_frase.Program" />
       <module name="tc-hbtn-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="analisador_frase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="banco.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="banco.Program" />
-      <module name="tc-hbtn-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="banco.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.telefones_duplicados.Program" />
         <item itemvalue="Application.telefones.Program" />
         <item itemvalue="Application.duplicados.Program" />
         <item itemvalue="Application.analisador_frase.Program" />
-        <item itemvalue="Application.banco.Program" />
       </list>
     </recent_temporary>
   </component>
