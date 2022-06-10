@@ -13,37 +13,8 @@ public class Produto {
         this.preco = preco;
     }
 
-    public void setPreco(double preco) {
-        this.preco = preco;
-    }
-
-
-    public void setPercentualMarkup(double percentualMarkup) {
-        this.percentualMarkup = percentualMarkup;
-    }
-
-    public void setPrecoComMarkup(Supplier<Double> precoComMarkup) {
-        this.precoComMarkup = precoComMarkup;
-    }
-
-    public void setAtualizarMarkup(Consumer<Double> atualizarMarkup) {
-        this.atualizarMarkup = atualizarMarkup;
-    }
-
     public String getNome() {
         return nome;
-    }
-
-    public double getPercentualMarkup() {
-        return percentualMarkup;
-    }
-
-    public Supplier<Double> getPrecoComMarkup() {
-        return precoComMarkup;
-    }
-
-    public Consumer<Double> getAtualizarMarkup() {
-        return atualizarMarkup;
     }
 
     public double getPreco() {
