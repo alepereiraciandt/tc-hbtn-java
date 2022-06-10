@@ -4,7 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lambda_exercicios/consulta_produtos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lambda_exercicios/predicado" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/encapsulamento" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/metodos" />
       <excludeFolder url="file://$MODULE_DIR$/0x04/status" />
