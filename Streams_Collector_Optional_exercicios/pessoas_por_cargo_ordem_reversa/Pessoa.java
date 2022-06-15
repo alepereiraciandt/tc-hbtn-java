@@ -3,9 +3,9 @@ public class Pessoa implements Comparable<Pessoa> {
     private String nome;
     private String cargo;
     private int idade;
-    private int salario;
+    private double salario;
 
-    public Pessoa(int codigo, String nome, String cargo, int idade, int salario) {
+    public Pessoa(int codigo, String nome, String cargo, int idade, double salario) {
         this.codigo = codigo;
         this.nome = nome;
         this.cargo = cargo;
@@ -16,7 +16,7 @@ public class Pessoa implements Comparable<Pessoa> {
 
     @Override
     public String toString() {
-        return String.format("[%d] %s %s %d R$ %d", codigo, nome, cargo, idade, salario);
+        return String.format("[%d] %s %s %d R$ %f", codigo, nome, cargo, idade, salario);
     }
 
     public int getCodigo() {
@@ -35,7 +35,7 @@ public class Pessoa implements Comparable<Pessoa> {
         return idade;
     }
 
-    public int getSalario() {
+    public double getSalario() {
         return salario;
     }
 
