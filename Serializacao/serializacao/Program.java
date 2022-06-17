@@ -1,4 +1,3 @@
-package serializacao;
 
 import java.util.List;
 
