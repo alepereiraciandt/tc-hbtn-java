@@ -27,7 +27,7 @@ public class SerializarEstudantes<Estudante> {
             throw new IllegalArgumentException("Nao foi possivel serializar");
         }
     }
-
+    @SuppressWarnings("unchecked")
     public List<Estudante> desserializar() {
         List<Estudante> listaDeEstudantes = new ArrayList<>();
         FileInputStream fileIn = null;
