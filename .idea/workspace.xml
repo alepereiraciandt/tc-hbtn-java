@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$/0x09" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.serializacao.Program">
     <configuration name="Produto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Produto" />
       <module name="tc-hbtn-java" />
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="duplicados.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="duplicados.Program" />
+    <configuration name="serializacao.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serializacao.Program" />
       <module name="tc-hbtn-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="duplicados.*" />
+          <option name="PATTERN" value="serializacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.serializacao.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Produto" />
         <item itemvalue="Application.telefones_duplicados.Program" />
         <item itemvalue="Application.telefones.Program" />
-        <item itemvalue="Application.duplicados.Program" />
       </list>
     </recent_temporary>
   </component>
